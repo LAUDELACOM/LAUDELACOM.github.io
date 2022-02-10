@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/laurence-senilhe.css" />
+    <title>Expériences professionnelles</title>
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <nav>
+      <ul id="menu" class="topnav">
+        <li>
+          <a
+            href="laurence-senilhe.html"
+            title="lien vers la page d'accueil"
+            target="_blank"
+            ><i id="iconHome" class="fas fa-home"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="competences.html"
+            title="lien vers la page compétences"
+            target="_blank"
+            >Compétences</a
+          >
+        </li>
+        <li>
+          <a
+            href="portfolio.html"
+            title="lien vers la page portfolio"
+            target="_blank"
+            >Portfolio</a
+          >
+        </li>
+        <li>
+          <a
+            class="linkActive"
+            href="experiences.html"
+            title="lien vers la page expériences professionnelles"
+            target="_blank"
+            >Expériences</a
+          >
+        </li>
+        <li>
+          <a href="outils.html" title="lien vers la page outils" target="_blank"
+            >Outils</a
+          >
+        </li>
+        <li>
+          <a
+            href="formation.html"
+            title="lien vers la page formation"
+            target="_blank"
+            >Formation</a
+          >
+        </li>
+        <li>
+          <a
+            href="jardin-secret.html"
+            title="lien vers la page Contact"
+            target="_blank"
+            >Jardin secret</a
+          >
+        </li>
+      </ul>
+
+      <div id="burger">
+        <i id="iconBurger" class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header>
+      <div class="header-top">
+        <div class="header-avatar">
+          <!-- width: 20% -->
+          <img
+            id="avatar"
+            src="assets/img/photo-laurence-senilhe.jpg"
+            alt="photo de profil laurence senilhe"
+          />
+        </div>
+        <div class="header-presentation">
+          <!-- display: flex; -->
+          <!-- width: 80% -->
+          <div class="header-fix">
+            <div class="header-name">
+              <h1>#EXPÉRIENCES PROFESSIONNELLES</h1>
+              <h2>@LAU_DE_LA_COM - Laurence Senilhe</h2>
+            </div>
+            <div class="header-button">
+              <!-- utiliser la class pour le style et l'id pour des animations spécifiques -->
+
+              <button class="modal-btn modal-trigger">Contact</button>
+
+              <div class="insta-btn" id="follower-btn">
+                <i class="far fa-user"></i>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="insta-btn" id="download-btn">
+                <a
+                  href="assets/telechargement/cv-print-laurence-senilhe.pdf"
+                  download="cv-print-laurence-senilhe"
+                  target="_blank"
+                  title="lien vers le CV à télécharger pour imprimer"
+                  >CV à télécharger</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="header-bio">
+            <h3>
+              Ma bio : • Web designer en formation recherche stage de 7 semaines
+              (Mai-Juin 2022)
+            </h3>
+            <ul id="textBio">
+              <li>
+                Experte en communication & marketing digital • formation -
+                recrutement - alternance
+              </li>
+            </ul>
+          </div>
+          <div class="header-stats">
+            <ul id="followText">
+              <li class="smallText">60k publications</li>
+              <li class="smallText">64k abonnés</li>
+              <li class="smallText">301 abonnements</li>
+            </ul>
+            <div id="following">
+              <p class="smallText">
+                Abonnés :<a
+                  href="https://www.instagram.com/jaiunpotedanslacom/"
+                  target="_blank"
+                >
+                  J'ai un pote dans la com</a
+                >,<a href="https://www.instagram.com/ui__ux/" target="_blank"
+                  >UI-UX</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-story">
+        <div class="header-actu green">
+          <h2>Actuellement</h2>
+          <img
+            id="effect2"
+            src="assets/img/logos/logo-la-manu-carre.png"
+            alt="Actuellement en formation à la Manu école du numérique"
+          />
+        </div>
+        <div class="header-actu pink">
+          <h2>Demain en stage</h2>
+          <img
+            id="effect1"
+            src="assets/img/logos/votre-logo-ici.png"
+            alt="prenez-moi en stage pour avoir votre logo sur mon CV"
+          />
+          <img
+            id="effect1Contact"
+            src="assets/img/logos/votre-logo-ici-contact.png"
+            alt="prenez-moi en stage pour avoir votre logo sur mon CV"
+          />
+        </div>
+        <div class="header-actu green">
+          <h2>Bientôt freelance</h2>
+          <img
+            id="effect3"
+            src="assets/img/logos/logo laudelacom.png"
+            alt="Logo de Lau de la com ma future entreprise en freelance"
+          />
+          <img
+            id="effect3freelance"
+            src="assets/img/logos/services-laudelacom.png"
+            alt="services de ma future entreprise en freelance"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- publications expériences -->
+
+    <main class="publiContainer">
+      <div class="publiRank">
+        <!-- publi media-management -->
+
+        <div class="publi img-zoom">
+          <div class="publi-img">
+            <img
+              src="assets/img/experiencespro/media-management.png"
+              alt="image qui illustre l'expérience de chargée de com et de marketing digital chez media management"
+            />
+          </div>
+          <div class="publi-content">
+            <div class="publi-icons">
+              <img
+                src="assets/img/icones/icones insta/like-instagram.png"
+                alt="icone du like d'instagram"
+              />
+              <img
+                src="assets/img/icones/icones insta/comment-instagram.png"
+                alt="icone du commentaire d'instagram"
+              />
+              <img
+                src="assets/img/icones/icones insta/share-instagram.png"
+                alt="icone du partage d'instagram"
+              />
+              <img
+                id="collector"
+                src="assets/img/icones/icones insta/collection-instagram.png"
+                alt="icone des collections d'instagram"
+              />
+            </div>
+            <div class="publi-text">
+              <h3>CHARGÉE DE COMMUNICATION & MARKETING DIGITAL</h3>
+              <p class="textBold">
+                <i class="fas fa-calendar-alt"></i>&nbsp;Mars 2020 - Mars 2021
+                (1 an)
+              </p>
+              <ul>
+                <li>
+                  Mise en place de la
+                  <strong>stratégie de communication</strong> du groupe : un
+                  organisme de formation, un cabinet RH, une école numérique et
+                  un lieu évènementiel
+                </li>
+                <li>
+                  <strong>Community manager </strong>, mise à jour des sites
+                  Web, E mailing
+                </li>
+                <li>
+                  <strong>Évènementiel</strong>: portes-ouvertes, organisation
+                  et animation de webinars
+                </li>
+                <li>Dossier et communiqué de <strong>presse</strong></li>
+              </ul>
+            </div>
+            <div class="publi-footer">
+              <img
+                src="assets/img/icones/icones insta/smiley-instagram.png"
+                alt="icone smiley d'instagram"
+              />
+              <small>Animation de 16 réseaux sociaux, 3 sites Web</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- publi expérience ESC Compiègne -->
+
+        <div class="publi img-zoom">
+          <div class="publi-img">
+            <img
+              src="assets/img/experiencespro/esc-compiegne.png"
+              alt="image qui illustre l'expérience professionnelle de responsable communication et relations extérieures"
+            />
+          </div>
+          <div class="publi-content">
+            <div class="publi-icons">
+              <img
+                src="assets/img/icones/icones insta/like-instagram.png"
+                alt="icone du like d'instagram"
+              />
+              <img
+                src="assets/img/icones/icones insta/comment-instagram.png"
+                alt="icone du commentaire d'instagram"
+              />
+              <img
+                src="assets/img/icones/icones insta/share-instagram.png"
+                alt="icone du partage d'instagram"
+              />
+              <img
+                id="collector"
+                src="assets/img/icones/icones insta/collection-instagram.png"
+                alt="icone des collections d'instagram"
+              />
+            </div>
+            <div class="publi-text">
+              <h3>RESPONSABLE COMMUNICATION & RELATIONS EXTÉRIEURES</h3>
+              <div>
+                <p class="textBold">
+                  <i class="fas fa-calendar-alt"></i>&nbsp;Sept 2014 - Oct 2019
+                  (5 ans)
+                </p>
+              </div>
+              <ul>
+                <li>
+                  <strong>Communication </strong>: Campagnes d’Emailing/SMS,
+                  média-planning, animation des réseaux sociaux, mise à jour du
+                  site web, supports print et web, montages vidéo, relations
+                  presse et fournisseurs
+                </li>
+                <li>
+                  <strong>Évènementiel </strong>: salons, portes-ouvertes, job
+                  dating, start up 2 days
+                </li>
+                <li>
+                  <strong>Commercial </strong>: sourcing, conférences, relations
+                  entreprises, placement alternants
+                </li>
+              </ul>
+            </div>
+            <div class="publi-footer">
+              <img
+                src="assets/img/icones/icones insta/smiley-instagram.png"
+                alt="icone smiley d'instagram"
+              />
+              <small>Evolution en 5 ans de 44 à 150 étudiants (+240%)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="publiRank">
+        <!-- publi expérience responsable centre de formation -->
+        <div class="publi img-zoom">
+          <div class="publi-img">
+            <img
+              src="assets/img/experiencespro/cfca-pierrefonds.png"
+              alt="image qui illustre une expérience de responsable de centre de formation"
+            />
+          </div>
+          <div class="publi-content">
+            <div class="publi-icons">
+              <img
+                src="assets/img/icones/icones insta/like-instagram.png"
+                alt="icone du like d'instagram"
+              />
+              <img
+                src="assets/img/icones/icones insta/comment-instagram.png"
+                alt="icone du commentaire d'instagram"
+              />
+              <img
+                src="assets/img/icones/icones insta/share-instagram.png"
+                alt="icone du partage d'instagram"
+              />
+              <img
+                id="collector"
+                src="assets/img/icones/icones insta/collection-instagram.png"
+                alt="icone des collections d'instagram"
+              />
+            </div>
+            <div class="publi-text">
+              <h3>RESPONSABLE DE CENTRE DE FORMATION ET D'APPRENTISSAGE</h3>
+              <p class="textBold">
+                <i class="fas fa-calendar-alt"></i>&nbsp;Sept 1997 - Juillet
+                2013 (16 ans)
+              </p>
+              <small
+                >Organisme de formation spécialisé en grande distribution</small
+              >
+              <ul>
+                <li>
+                  <strong>Commercial</strong> : prospection B to B, E mailing,
+                  marketing direct, salons
+                </li>
+                <li>
+                  <strong>Management</strong> d’une équipe de 25 personnes
+                </li>
+                <li><strong>Gestion </strong>d’un centre de profit</li>
+                <li>
+                  <strong>Ingénierie pédagogique</strong>, appels d'offres,
+                  formations en alternance (apprentissage et formation continue)
+                  coordination réseau d'organismes de Formation pour Gamm vert
+                  France.
+                </li>
+              </ul>
+            </div>
+            <div class="publi-footer">
+              <img
+                src="assets/img/icones/icones insta/smiley-instagram.png"
+                alt="icone smiley d'instagram"
+              />
+              <small
+                >Chiffre d’affaires de 725 K€, multiplié par 4 en 10 ans</small
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- publi autres expériences -->
+
+        <div class="publi img-zoom">
+          <div class="publi-img">
+            <img
+              src="assets/img/experiencespro/autres-expériences.png"
+              alt="image qui illustre des compétences en communication"
+            />
+          </div>
+          <div class="publi-content">
+            <div class="publi-icons">
+              <img
+                src="assets/img/icones/icones insta/like-instagram.png"
+                alt="icone du like d'instagram"
+              />
+              <img
+                src="assets/img/icones/icones insta/comment-instagram.png"
+                alt="icone du commentaire d'instagram"
+              />
+              <img
+                src="assets/img/icones/icones insta/share-instagram.png"
+                alt="icone du partage d'instagram"
+              />
+              <img
+                id="collector"
+                src="assets/img/icones/icones insta/collection-instagram.png"
+                alt="icone des collections d'instagram"
+              />
+            </div>
+            <div class="publi-text">
+              <h3>RESPONSABLE COMMERCIALE</h3>
+              <p class="textBold">
+                <i class="fas fa-calendar-alt"></i>&nbsp;Sept 1993 - Sept 1997
+                (4 ans)
+              </p>
+              <ul>
+                <li>
+                  Crescendo Paris : Cabinet de conseil en management. Formation
+                  et conseil dans la mise en place des entretiens d'évaluation
+                  des salariés d'assurance et de banque. <br />Prospection et
+                  gestion administrative.
+                </li>
+              </ul>
+              <h3>ASSISTANTE RH EN ALTERNANCE</h3>
+              <p class="textBold">
+                <i class="fas fa-calendar-alt"></i>&nbsp;Sept 1992 - Juin 1993
+                (1 an)
+              </p>
+              <ul>
+                <li>
+                  Théâtre Musical de Paris Châtelet : mise en place d'une
+                  solution informatique pour la gestion des absences. Mise en
+                  place de la Loi Evin.
+                </li>
+              </ul>
+            </div>
+            <div class="publi-footer">
+              <img
+                src="assets/img/icones/icones insta/smiley-instagram.png"
+                alt="icone smiley d'instagram"
+              />
+              <small>La sagesse vient de l'expérience.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--modal contact-->
+    <div class="modal-container">
+      <div class="overlay modal-trigger"></div>
+      <div class="modal">
+        <button class="close-modal modal-trigger">X</button>
+        <h2 style="text-decoration: underline">Contactez-moi</h2>
+        <p id="modal-text">
+          Laurence Senilhe, Compiègne et Paris au
+          <span><a href="telto:+33651621191">06 51 62 11 91</a></span>
+          ou par Email :
+          <span
+            ><a href="mailto:laurence.senilhe@gmail.com"
+              >laurence.senilhe@gmail.com</a
+            ></span
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal Copyright -->
+    <div id="myModalC" class="modalC">
+      <!-- Modal content -->
+      <div class="modalC-content">
+        <span class="closeC">&times;</span>
+        <p>
+          &copy; Laurence Senilhe 2022 tous droits réservés. <br />Crédits
+          photos :<br />Photos de Pau sur la page
+          <a href="formation.html#slidePau">Web formation</a> : Valérie DULAC
+          <a href="https://www.instagram.com/valphoto64/?hl=fr">@valphoto64</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div id="footerContact">
+        <div id="blockSocialmedia">
+          <a href="https://www.linkedin.com/in/laurence-senilhe/"
+            ><img
+              class="linkSocialMedia"
+              src="assets/img/logos/linkedin.png"
+              target="_blanck"
+              alt="lien vers ma page linkedin"
+            />
+          </a>
+          <a href="https://www.youtube.com/c/LaurenceSENILHE">
+            <img
+              class="linkSocialMedia"
+              src="assets/img/logos/youtube.png"
+              target="_blanck"
+              alt="lien vers ma page Youtube"
+            />
+          </a>
+          <!-- Trigger/Open The Modal -->
+          <button id="myBtnC">
+            <img
+              class="linkSocialMedia"
+              src="assets/img/logos/copyright-white.png"
+              alt="Copyright"
+            />
+          </button>
+        </div>
+        <div>
+          <p id="footer-text">
+            Contactez-moi : Laurence Senilhe, Compiègne et Paris au
+            <span><a href="telto:+33651621191">06.51.62.11.91</a></span> ou
+            <span
+              ><a href="mailto:laurence.senilhe@gmail.com"
+                >laurence.senilhe@gmail.com</a
+              ></span
+            >
+          </p>
+        </div>
+        <div id="scroll_to_top">
+          <a href="#top"
+            ><img src="assets/img/top-cv-numerique.png" alt="Retourner en haut"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/ffd9e11b02.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
