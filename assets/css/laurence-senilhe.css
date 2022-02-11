@@ -130,8 +130,7 @@ ul.topnav li a:hover {
   border: 3px #fff;
   border-radius: 50%;
   box-shadow: 3px 3px 9px 1px #025951;
-  width: 15vw;
-  height: fit-content;
+  max-width: 15vw;
 }
 
 .header-top {
@@ -918,8 +917,7 @@ span a:link {
     width: 100vw;
   }
   #avatar {
-    width: 40vw;
-    height: fit-content;
+    max-width: 30vw;
   }
   #textBio {
     font-size: 0.9em;
@@ -1181,8 +1179,7 @@ span a:link {
     font-size: 1.1em;
   }
   #avatar {
-    width: 20vw;
-    height: fit-content;
+    max-width: 20vw;
   }
 
   #effect1,
