@@ -918,9 +918,10 @@ span a:link {
     width: 100vw;
   }
   #avatar {
-    max-width: 30vw;
-    height: auto;
+    max-width: 100%;
+    height: fit-content;
   }
+
   #textBio {
     font-size: 0.9em;
   }
