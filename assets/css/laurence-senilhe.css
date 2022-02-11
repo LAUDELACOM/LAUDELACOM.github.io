@@ -261,28 +261,31 @@ ul.topnav li a:hover {
 /* La Modal  */
 .modalC {
   display: none; /* cachée par défaut */
-  position: fixed;
+  position: relative;
   z-index: 1; /* au dessus */
-  padding-bottom: 100px; /* position dans la page */
+  padding-bottom: 2em; /* position dans la page */
   left: 0;
   bottom: 0;
-  width: 25%;
-  height: 25%;
-  overflow: auto; /* activer défilement si nécessaire */
-  background-color: #025951;
+  max-width: 100vw;
+  height: auto;
+  background-color: #025951d3;
+  /* overflow: auto; activer défilement si nécessaire */
 }
-#myModalC p {
+.modalC p {
   padding-top: 2em;
   color: #fff;
 }
 
 /* Modal Content */
 .modalC-content {
-  background-color: #025951;
-  padding: 2em;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
   font-size: 1em;
-  width: 90%;
+  max-width: 100vw;
+  height: auto;
 }
+
 #myBtnC {
   width: 100px;
   height: 100px;
@@ -293,7 +296,7 @@ ul.topnav li a:hover {
 
 /* The Close Button */
 .closeC {
-  color: #aaaaaa;
+  color: #f28d8d;
   font-size: 28px;
   font-weight: bold;
 }
@@ -985,6 +988,9 @@ span a:link {
 
   .img-zoom:hover {
     transform: none;
+  }
+  .modal {
+    max-width: 360px;
   }
 
   .publi-img img {
