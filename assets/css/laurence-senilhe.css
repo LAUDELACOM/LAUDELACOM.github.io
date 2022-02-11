@@ -131,6 +131,7 @@ ul.topnav li a:hover {
   border-radius: 50%;
   box-shadow: 3px 3px 9px 1px #025951;
   max-width: 15vw;
+  height: auto;
 }
 
 .header-top {
@@ -918,6 +919,7 @@ span a:link {
   }
   #avatar {
     max-width: 30vw;
+    height: auto;
   }
   #textBio {
     font-size: 0.9em;
@@ -1136,6 +1138,10 @@ span a:link {
   ul.topnav li a {
     font-size: 1em;
   }
+  #avatar {
+    max-width: 100%;
+    height: fit-content;
+  }
 
   .publi-img .img-accueil {
     width: 30vw;
@@ -1177,9 +1183,6 @@ span a:link {
 
   h3 {
     font-size: 1.1em;
-  }
-  #avatar {
-    max-width: 20vw;
   }
 
   #effect1,
@@ -1232,6 +1235,11 @@ span a:link {
 
   h3 {
     font-size: 1.2em;
+  }
+
+  #avatar {
+    max-width: 100%;
+    height: fit-content;
   }
 
   .header-story h2 {
