@@ -272,3 +272,84 @@ window.onclick = function (event) {
     modalC.style.display = "none";
   }
 };
+
+// /* effet sur le like des publis passage de gris à rose
+
+//page portfolio
+document
+  .getElementById("likeInstaColorP1")
+  .addEventListener("click", function () {
+    if (
+      this.getAttribute("src") ==
+      "assets/img/icones/icones insta/like-instagram.png"
+    ) {
+      this.src = "assets/img/outils/heart-pink.png";
+    } else {
+      this.src = "assets/img/icones/icones insta/like-instagram.png";
+    }
+  });
+
+document
+  .getElementById("likeInstaColorP2")
+  .addEventListener("click", function () {
+    if (
+      this.getAttribute("src") ==
+      "assets/img/icones/icones insta/like-instagram.png"
+    ) {
+      this.src = "assets/img/outils/heart-pink.png";
+    } else {
+      this.src = "assets/img/icones/icones insta/like-instagram.png";
+    }
+  });
+//CHANGEMENT COULEUR BTN INSTA
+document
+  .getElementById("likeInstaColorP3")
+  .addEventListener("click", function () {
+    if (
+      this.getAttribute("src") ==
+      "assets/img/icones/icones insta/like-instagram.png"
+    ) {
+      this.src = "assets/img/outils/heart-pink.png";
+    } else {
+      this.src = "assets/img/icones/icones insta/like-instagram.png";
+    }
+  });
+
+document
+  .getElementById("likeInstaColorP4")
+  .addEventListener("click", function () {
+    if (
+      this.getAttribute("src") ==
+      "assets/img/icones/icones insta/like-instagram.png"
+    ) {
+      this.src = "assets/img/outils/heart-pink.png";
+    } else {
+      this.src = "assets/img/icones/icones insta/like-instagram.png";
+    }
+  });
+
+document
+  .getElementById("likeInstaColorP5")
+  .addEventListener("click", function () {
+    if (
+      this.getAttribute("src") ==
+      "assets/img/icones/icones insta/like-instagram.png"
+    ) {
+      this.src = "assets/img/outils/heart-pink.png";
+    } else {
+      this.src = "assets/img/icones/icones insta/like-instagram.png";
+    }
+  });
+
+document
+  .getElementById("likeInstaColorP6")
+  .addEventListener("click", function () {
+    if (
+      this.getAttribute("src") ==
+      "assets/img/icones/icones insta/like-instagram.png"
+    ) {
+      this.src = "assets/img/outils/heart-pink.png";
+    } else {
+      this.src = "assets/img/icones/icones insta/like-instagram.png";
+    }
+  });
