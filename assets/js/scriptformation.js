@@ -19,26 +19,22 @@ document.getElementById("effect2").addEventListener("click", function () {
 
 /* effet sur l'image votre logo ici */
 
-document.getElementById("effect1").addEventListener("mouseover", function () {
-  document.getElementById("effect1").src =
-    "assets/img/logos/votre-logo-ici-contact.png";
-});
-
-document.getElementById("effect1").addEventListener("mouseout", function () {
-  document.getElementById("effect1").src =
-    "assets/img/logos/votre-logo-ici.png";
+document.getElementById("effect1").addEventListener("click", function () {
+ if (this.getAttribute("src") == "assets/img/logos/votre-logo-ici-contact.png") {
+    this.src = "assets/img/logos/votre-logo-ici.png";
+  } else {
+    this.src = "assets/img/logos/votre-logo-ici-contact.png";
+  }
 });
 
 /* effet sur l'image bientôt freelance */
 
-document.getElementById("effect3").addEventListener("mouseover", function () {
-  document.getElementById("effect3").src =
-    "assets/img/logos/services-laudelacom.png";
-});
-
-document.getElementById("effect3").addEventListener("mouseout", function () {
-  document.getElementById("effect3").src =
-    "assets/img/logos/logo laudelacom.png";
+document.getElementById("effect3").addEventListener("click", function () {
+ if (this.getAttribute("src") == "assets/img/logos/logo laudelacom.png") {
+    this.src = "assets/img/logos/services-laudelacom.png";
+  } else {
+    this.src = "assets/img/logos/logo laudelacom.png";
+  }
 });
 
 // SLIDERS
