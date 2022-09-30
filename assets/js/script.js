@@ -29,7 +29,7 @@ document.getElementById("effect1").addEventListener("click", function () {
 
 /* effet sur l'image bientôt freelance */
 
-document.getElementById("effect3").addEventListener("mouseover", function () {
+document.getElementById("effect3").addEventListener("click", function () {
  if (this.getAttribute("src") == "assets/img/logos/logo laudelacom.png") {
     this.src = "assets/img/logos/services-laudelacom.png";
   } else {
